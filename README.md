@@ -151,6 +151,8 @@ src/test/java/            tes sintetis dan harness desktop
 database/create-demo.sql  membuat database Docker jika belum ada
 ```
 
+[Alur kode dan diagram](docs/CODE_FLOW.md) menjelaskan entry point Swing, pemeriksaan peran, data master, transaksi stok, dan laporan.
+
 ## Batas proyek
 
 Aplikasi ini merupakan proyek pembelajaran apotek, dengan domain dan tampilan desktop dari sumber asal. Belum ada pembayaran daring, pajak, retur, audit perubahan, integrasi alat kasir, migrasi data lama, atau panduan operasional klinis. Dosis dan kandungan merupakan isian pengguna; aplikasi tidak menentukan rekomendasi pengobatan. Form pencarian master membatasi hasil ke 500 baris.
